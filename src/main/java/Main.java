@@ -25,6 +25,7 @@ public class Main {
                 break;
             }
         }
+        sc.close();
     }
 
 
@@ -38,5 +39,6 @@ public class Main {
         } else {
             return 365; // обычный год
         }
+
     }
 }
